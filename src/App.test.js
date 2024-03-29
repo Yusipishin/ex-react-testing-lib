@@ -28,7 +28,6 @@ describe('APP TEST', () => {
       const helloWorldElement = await screen.findByText(/data/i)
       expect(helloWorldElement).toBeInTheDocument()
       expect(helloWorldElement).toHaveStyle({color: 'red'})
-
   });
 
   test('CLICK EVENT', () => {
