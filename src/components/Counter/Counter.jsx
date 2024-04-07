@@ -12,9 +12,9 @@ const Counter = () => {
 
     return (
         <div>
-            <h1>value = {value}</h1>
-            <button onClick={onIncr}>incr</button>
-            <button onClick={onDecr}>decr</button>
+            <h1 data-testid="value-title">{value}</h1>
+            <button data-testid="incr-btn" onClick={onIncr}>incr</button>
+            <button data-testid="decr-btn" onClick={onDecr}>decr</button>
         </div>
     );
 };
