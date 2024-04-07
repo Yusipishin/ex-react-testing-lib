@@ -34,7 +34,7 @@ import {Link, Route, Routes} from "react-router-dom";
 import MainPage from "./pages/MainPage";
 import AboutPage from "./pages/AboutPage";
 import ErrorPage from "./pages/ErrorPage";
-import Users from "./users/Users";
+import Users from "./components/users/Users";
 import UserDetailsPage from "./pages/UserDetailsPage";
 import AppRouter from "./router/AppRouter";
 import Navbar from "./components/Navbar/Navbar";
