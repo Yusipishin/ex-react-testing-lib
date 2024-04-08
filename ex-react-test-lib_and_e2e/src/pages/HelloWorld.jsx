@@ -5,7 +5,7 @@ const HelloWorld = () => {
     const [visible, setVisible] = useState(false)
 
     const toggle = () => value === "hello" && setVisible(prev => !prev)
-    const onChange = () => setValue(e.target.value)
+    const onChange = (e) => setValue(e.target.value)
 
     return (
         <div>
